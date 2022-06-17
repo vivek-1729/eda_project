@@ -5,7 +5,7 @@ library(gridExtra)
 
 # Organize data -----------------------------------------------------------
 
-tbl <- read_csv("data/nfl_passing_plays_2021.csv") #load data
+tbl <- read_csv("nfl_passing_plays_2021.csv") #load data
 
 cont_var <- c("yards_gained", "wpa", "home_score", "air_yards", "yardline_100", "away_score", "yards_after_catch", "play_clock", "epa", "half_seconds_remaining") #all continous variables
 cont <- select(tbl, cont_var) #create tibble of only continous variables
