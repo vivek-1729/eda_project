@@ -24,4 +24,4 @@ nfl_passing_plays <- nfl_2021_data %>%
     desc)
 # Save this file:
 write_csv(nfl_passing_plays, 
-          "data/nfl_passing_plays_2021.csv")
+          "nfl_passing_plays_2021.csv")
